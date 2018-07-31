@@ -12,3 +12,7 @@ At each moment the buffer is divided in three areas that are dynamically resized
 These areas are controlled by three circulars variables representing each first position (index in the buffer) of  each area.  
 The parallel access on these zones is synchronized by three locks.  
 So three threads can work in parallel on the buffer.
+
+# Test
+First launch Generator.java in one shell.  
+And launch Producers.java and Consumers.java in two other shells.
